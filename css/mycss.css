@@ -1,0 +1,37 @@
+.myDiv{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    transition: 1s ease;
+}
+
+.myDiv:hover{
+    
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    transition: 1s ease;
+}
+
+.myDiv .myForm{
+    opacity: 0;
+    font-size: 18px;
+    
+}
+.myDiv h1{
+    text-align: center;
+    opacity: 0;
+}
+
+.myDiv:hover h1{
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 1s;
+}
+
+.myDiv:hover .myForm{
+    opacity: 1;
+    transition: opacity 1s;
+    transition-delay: 1s;
+}
